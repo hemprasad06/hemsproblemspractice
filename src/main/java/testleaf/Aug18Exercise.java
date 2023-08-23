@@ -1,9 +1,14 @@
 package testleaf;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
+
 public class Aug18Exercise
 
 {
-		
+		WebElement e = new WebElement();
+	Select test = new Select(e);
+	
 		/*
 		 * check if the input is 0, return 0
 		 * else if input is 1, return 1;
